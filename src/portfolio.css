@@ -1,0 +1,58 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+.profile {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+a {
+  color: pink;
+  padding: 20px 15px;
+  text-decoration: none;
+  list-style: none;
+  text-align: -webkit-match-parent;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  display: block;
+}
+
+.navbar {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
