@@ -1,5 +1,9 @@
 body {
   background-color: #ffe0e0;
+  font-family: "Space Mono", Arial, serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 h1,
@@ -61,16 +65,19 @@ nav ul li a:hover:after {
 
 .social-icons {
   li {
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    position: relative;
+    left: 825px;
+
     a {
-      color: white;
+      color: black;
       i {
         font-size: 30px;
       }
     }
   }
-
-  text-align: center;
-  list-style: none;
 }
 
 .linkedin {
@@ -82,6 +89,17 @@ nav ul li a:hover:after {
   left: 30px;
 }
 
-.fa-github:before {
-  content: "\f09b";
+.info {
+  list-style: none;
+}
+
+.info li .first-details {
+  width: 40%;
+  color: #000;
+  font-weight: bold;
+}
+
+.info li .second-details {
+  width: 60%;
+  color: grey;
 }
