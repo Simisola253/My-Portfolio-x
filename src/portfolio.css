@@ -6,9 +6,25 @@ body {
   line-height: 1.7;
 }
 
-h1,
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
 h2 {
   text-align: center;
+  font-size: 40px;
+  color: #000;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+.about,
+.skills {
+  font-size: 40px;
+  margin: 60px;
+  line-height: 1.5;
+  color: #ff347f;
 }
 
 .profile {
@@ -91,6 +107,9 @@ nav ul li a:hover:after {
 
 .info {
   list-style: none;
+  position: relative;
+  left: 120px;
+  line-height: 3;
 }
 
 .info li .first-details {
@@ -99,7 +118,17 @@ nav ul li a:hover:after {
   font-weight: bold;
 }
 
-.info li .second-details {
+.info li .second-block {
   width: 60%;
-  color: grey;
+  color: #ff347f;
+}
+
+.intro {
+  position: relative;
+  bottom: 170px;
+  align-items: center;
+}
+
+.intro p {
+  color: #ff347f;
 }
