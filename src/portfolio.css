@@ -8,13 +8,12 @@ body {
 
 h1 {
   text-align: center;
-  text-decoration: underline;
 }
 
 h2 {
+  display: block;
   text-align: center;
   font-size: 40px;
-  color: #000;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -85,13 +84,12 @@ nav ul li a:hover:after {
     list-style: none;
     align-items: center;
     position: relative;
-    left: 825px;
+  }
 
-    a {
-      color: black;
-      i {
-        font-size: 30px;
-      }
+  a {
+    color: black;
+    i {
+      font-size: 30px;
     }
   }
 }
@@ -131,4 +129,15 @@ nav ul li a:hover:after {
 
 .intro p {
   color: #ff347f;
+}
+
+tr {
+  mix-blend-mode: multiply;
+}
+
+#fh5co-skills,
+#logo {
+  display: inline-block;
+  position: relative;
+  left: 450px;
 }
