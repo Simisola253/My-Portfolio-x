@@ -82,8 +82,10 @@ nav ul li a:hover:after {
   li {
     display: inline-block;
     list-style: none;
-    align-items: center;
+    text-align: center;
     position: relative;
+    margin: 0;
+    padding: 0;
   }
 
   a {
@@ -140,4 +142,18 @@ tr {
   display: inline-block;
   position: relative;
   left: 450px;
+}
+
+small {
+  font-size: 85%;
+  line-height: 1.5;
+  color: #828282;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer {
+  margin: 180px 50px;
 }
