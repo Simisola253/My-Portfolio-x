@@ -37,7 +37,6 @@ h2 {
 }
 
 a {
-  color: pink;
   padding: 20px 15px;
   text-decoration: none;
   list-style: none;
@@ -156,4 +155,64 @@ small {
 
 .footer {
   margin: 180px 50px;
+}
+
+span {
+  color: black;
+  border: 1px solid;
+  border-radius: 6px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: #fabcc8;
+  border-color: #ff347f;
+  padding: 20px 15px;
+}
+
+span:hover {
+  border: 1px solid;
+  border-color: #ff347f;
+  color: #ffe0e0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.col-md-6 {
+  flex: 0 0 auto;
+  width: 50%;
+  min-width: 768px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  vertical-align: middle;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.nav-container {
+  margin: 150px auto;
+  text-align: center;
+  max-width: 80vw;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+div {
+  display: block;
 }
