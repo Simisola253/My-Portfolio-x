@@ -157,7 +157,7 @@ small {
   margin: 180px 50px;
 }
 
-span {
+.links {
   color: black;
   border: 1px solid;
   border-radius: 6px;
@@ -168,7 +168,7 @@ span {
   padding: 20px 15px;
 }
 
-span:hover {
+.links:hover {
   border: 1px solid;
   border-color: #ff347f;
   color: #ffe0e0;
@@ -203,7 +203,7 @@ img {
   max-width: 80vw;
 }
 
-.row {
+.row-projects {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
@@ -211,8 +211,4 @@ img {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
-}
-
-div {
-  display: block;
 }
