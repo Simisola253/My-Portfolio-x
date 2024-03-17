@@ -15,20 +15,30 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  display: block;
+#fh5co-skills,
+#logo {
+  display: inline-block;
+  position: relative;
+  left: 450px;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
 
+.skills-name {
+  font-size: 15px;
+}
+
 .about,
-.skills {
+.skills,
+.work {
   font-size: 40px;
-  margin: 60px;
+  font-weight: bold;
+  margin: 60px 20px;
   line-height: 1.5;
   color: #ff347f;
+  text-align: center;
 }
 
 .profile {
@@ -69,8 +79,7 @@ nav ul li a:hover {
   color: #ff347f;
 }
 nav ul li a:after {
-  content: "";
-  position: absolute;
+  position: relative;
   left: 0;
   width: 0;
   height: 3px;
@@ -127,25 +136,24 @@ nav ul li a:hover:after {
   color: #ff347f;
 }
 
-.intro {
+.intro-2 {
+  color: #ff347f;
+  text-align: justify;
+  opacity: 0.8;
+  font-size: 15px;
+  line-height: 2em;
   position: relative;
-  bottom: 170px;
+  bottom: 173px;
+  left: 700px;
   align-items: center;
 }
 
-.intro p {
+.m-0 {
   color: #ff347f;
 }
 
 tr {
   mix-blend-mode: multiply;
-}
-
-#fh5co-skills,
-#logo {
-  display: inline-block;
-  position: relative;
-  left: 450px;
 }
 
 small {
@@ -156,6 +164,7 @@ small {
 
 .text-center {
   text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .footer {
@@ -182,7 +191,7 @@ small {
 }
 
 .mb-4 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .col-md-6 {
