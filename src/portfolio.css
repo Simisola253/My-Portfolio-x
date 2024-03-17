@@ -154,8 +154,14 @@ nav ul li a:hover:after {
   color: #ff347f;
 }
 
-tr {
+tr,
+.cv-logo {
   mix-blend-mode: multiply;
+}
+
+.cv-logo {
+  position: relative;
+  bottom: 5px;
 }
 
 small {
