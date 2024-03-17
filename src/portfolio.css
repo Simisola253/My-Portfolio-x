@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -97,7 +98,7 @@ nav ul li a:hover:after {
     list-style: none;
     text-align: center;
     position: relative;
-    margin: 0;
+    margin: 20px 0;
     padding: 0;
   }
 
@@ -129,23 +130,24 @@ nav ul li a:hover:after {
   width: 40%;
   color: #000;
   font-weight: bold;
+  font-size: 25px;
 }
 
-.info li .second-block {
+.info li .second-details {
   width: 60%;
   color: #ff347f;
+  font-size: 25px;
 }
 
+.intro-1,
 .intro-2 {
   color: #ff347f;
   text-align: justify;
-  opacity: 0.8;
-  font-size: 15px;
+  font-size: 25px;
   line-height: 2em;
   position: relative;
-  bottom: 173px;
+  bottom: 210px;
   left: 700px;
-  align-items: center;
 }
 
 .m-0 {
@@ -214,7 +216,6 @@ img {
 .nav-container {
   margin: 150px auto;
   text-align: center;
-  max-width: 80vw;
 }
 
 .row-projects {
